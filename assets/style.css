@@ -42,6 +42,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -108,7 +109,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #a19845;
 	border-radius: 0;
 }
 
@@ -219,7 +220,7 @@ body {
 
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: #a19845;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -259,7 +260,7 @@ form textarea {
 }
 
 input[type="submit"] {
-	background-color: #BEB45A;
+	background-color: #a19845;
 	padding: .5em 1em
 }
 
