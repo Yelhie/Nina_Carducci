@@ -22,18 +22,18 @@
 		content="Nina Carducci, photographe à Bordeaux. Spécialisée dans les shootings photo, les retouches professionnelles et la création d'albums uniques. Contactez-nous pour capturer vos moments spéciaux." />
 	<meta name=”twitter:image” content="https://yelhie.github.io/OC_Nina_Carducci/assets/images/nina.webp" />
 
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" async>
-	<link rel="stylesheet" href="./assets/style.css" async>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		rel="stylesheet" defer>
+		rel="stylesheet">
 </head>
 
 <body>
 	<div class="top-header">
-		<h3 class="name">Nina Carducci</h3>
+		<h1 class="name">Nina Carducci</h1>
 		<div class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -86,10 +86,10 @@
 			<img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci">
 		</div>
 		<div id="about-me">
-			<h3 class="about-me__title">A propos de moi</h3>
-			<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
+			<h2 class="about-me__title">A propos de moi</h2>
+			<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-				immortels, voilà ce qui me fait vibrer.</h6>
+				immortels, voilà ce qui me fait vibrer.</h3>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
 				ou le partager au plus grand nombre.
@@ -99,7 +99,7 @@
 		</div>
 	</div>
 	<div id="gallery">
-		<h3 class="title">Portfolio</h3>
+		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item"
@@ -144,7 +144,7 @@
 		</div>
 	</div>
 	<div id="services">
-		<h3 class="title">Mes services</h3>
+		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
 				<div class="service__description">
@@ -194,7 +194,7 @@
 	<div id="contact">
 		<div class="container">
 			<div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
+				<h2>Une question ? Une demande de devis ?</h2>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="#" method="post">
 					<label for="nom">Nom</label>
@@ -217,6 +217,37 @@
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="./assets/maugallery.min.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Nina Carducci",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace Lorraine",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Gironde",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"url": "https://yelhie.github.io/OC_Nina_Carducci/",
+			"telephone": "+33556677889",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+							"lundi",
+							"mardi",
+							"mercredi",
+							"jeudi",
+							"vendredi"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			]
+		}
+	</script>
 
 </body>
 
