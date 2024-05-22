@@ -26,4 +26,4 @@ Projet de la formation OpenClassrooms intégrateur web dont voici les objectifs:
 
 **Home page**
 
-![Nina Carducci home page](https://github.com/Yelhie/xi5ftcai605u/blob/master/img/nina_carducci_23163145.jpg)
+![Nina Carducci home page](https://github.com/Yelhie/Nina_Carducci/blob/master/screenshot/nina_carducci_23163145.jpg)
