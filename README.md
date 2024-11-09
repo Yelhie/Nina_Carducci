@@ -9,18 +9,13 @@ Projet de la formation OpenClassrooms intégrateur web dont voici les objectifs:
 - Ajout de fichiers minifié.
 - Rédaction d'un rapport d'optimisation complet.
 
-## Instructions
+## Stack Technique
 
-- Lancer le projet avec liveserver.
-
-## Stack
-
-**Client:**
-
-- HTML
-- Css
-- Javascript
-- Bootstrap
+|  Backend   | Frontend | Base de données | Documentation API et Test |
+|:----------:|:--------:|:---------------:|:-------------------------:|
+|    |   JavaScript    |       |                  |
+|  |    HTML   |                 |                   |
+|  |    CSS  |               |                     |
 
 ## Screenshots
 
